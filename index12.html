@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dim{
+            background-color:aqua;
+            border: 1px solid goldenrod;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="lst" class="dim">
+        <ul >
+            <li>1</li>
+            <li>3</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+    </body>
+<script>
+    let list = document.getElementById("lst");
+    // let itm = document.createElement("li");
+    // itm.textContent = "2";
+    // let replc = list.firstElementChild.nextElementSibling;
+    // list.replaceChild(itm, replc);
+    // let htm = "<h1>This is html content</h1>";
+    // list.insertAdjacentHTML('beforebegin', htm);
+    // let gett = list.getAttribute('name');
+    // let gett = list.setAttribute('name','form1');
+    // console.log(gett);
+    // console.log(list.getAttribute('name'));
+    // console.log(list.hasAttribute('name'));
+    // console.log(list.removeAttribute("name"))
+    // console.log(list.hasAttribute('name'));
+    // lst.style.cssText += "background-color : red; color: yellow; border : 1px solid";
+    //  lst.setAttribute('style','color:yellow;background-color:green;');
+    //  lst.style.background = "blue";
+    // 
+//    list.classList.add("data")
+    
+//  let con = list.classList.contains("saga");
+//  console.log(con);
+list.classList.toggle("dim");
+</script>

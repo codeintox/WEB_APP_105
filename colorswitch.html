@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="colorswitch.css">
+</head>
+<body>
+    <div id="colswtch">
+        <span class="bt" id="white" onclick="changeCol('white')"></span>
+        <span class="bt" id="red" onclick="changeCol('red')"></span>
+        <span class="bt" id="blue" onclick="changeCol('blue')"></span>
+        <span class="bt" id="black" onclick="changeCol('black')"></span>
+    </div>
+    <h1 class="txt">About Us</h1>
+             <img src="images (1).jpeg" alt="">
+    <p class="txt">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus expedita architecto numquam ab ipsam dolorum repudiandae obcaecati veniam, aliquam illum minus 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dolor, blanditiis consequuntur repellat quo tempora nesciunt ducimus ut adipisci? Vero fugiat saepe placeat 
+        Lorem ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore porro accusantium corrupti inventore. Quibusdam laboriosam minima aspernatur dolorum, qua
+        m quae nulla magnam ducimus quasi! Blanditiis tempore rerum sint molestias atque?
+        dolor sit amet consectetur adipisicing elit. Obcaecati maxime alias minus cum suscipit inventore aspernatur nemo quas, praesentium animi minima fuga 
+        fugiat quidem molestiae ratione, sit voluptate consequatur quaerat?
+        facilis cupiditate praesentium nisi excepturi, voluptates asperiores.
+        facere neque magni aperiam blanditiis cum consequuntur tempore quas.
+    </p>
+    
+</body>
+<script>
+    function changeCol(color){
+        document.body.style.backgroundColor = color;
+        let txt = document.getElementsByClassName('txt');
+        if(color == 'black'){
+            for(let el of txt){
+                el.style.color = 'white';
+            }
+        }
+        else{
+            for(let el of txt){
+                el.style.color = 'black';
+        }            
+            }
+        }
+    
+    
+</script>
+</html>

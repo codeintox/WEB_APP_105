@@ -1,0 +1,28 @@
+img{
+    width: 150px;
+    height: auto;
+ }
+ #header{
+    
+    text-align: center;
+
+ }
+ #menu_bar{
+   text-align: center;
+   background-color: forestgreen;
+ }
+#menu_bar li{
+    display: inline-block;
+    color: white;
+    padding: 15px 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    }
+    p{
+      font-size: 25px;
+    }
+    .sticky{
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }

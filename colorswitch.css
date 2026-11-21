@@ -1,0 +1,36 @@
+body{
+    border: 0px;
+    padding: 20px 100px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.bt{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+#colswtch{
+    text-align: right;
+}
+#white{
+    background-color: azure;
+    }
+    #red{
+        background-color: red;
+    }
+    #blue{
+        background-color: blue;
+    }
+    #black{
+        background-color: black;
+    }

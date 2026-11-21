@@ -1,0 +1,43 @@
+#prc5{
+    height: 100px;
+    width: 100px;
+    background-image: url("premium_photo-1670897798053-27b9dd0c2036.avif");
+    background-size: cover;
+    background-color: aqua;
+    position: fixed;
+    
+
+}
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.box1{
+    background-color: brown;
+    
+}
+.box2{
+    background-color: greenyellow;
+}
+.box3{
+    background-color: purple;
+}
+.box4{
+    background-color: aqua;
+}
+.box5{
+    background-color: rgb(78, 7, 95);
+}

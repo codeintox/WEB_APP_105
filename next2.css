@@ -1,0 +1,35 @@
+
+#cont{
+    height: 100px;
+    width: 900px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: orange;
+}
+a{
+    /* margin-left: 100px; */
+    text-decoration: none;
+}
+#out
+{
+    background-color: violet;
+    height: 200px;
+    width: 500px;
+    border: 2px saddlebrown solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#in{
+    background-color: brown;
+    height: 29px;
+    width: 100px;
+    background-color: blue;
+}
+@media (width : 300){
+    #cont{
+        background-color: maroon;
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            padding: 15px 50px;
+            border: 5px;
+            background: #d33c3c;
+            text-align: center;
+            color: aliceblue;
+        }
+        #txt{
+            width: 98%;
+            border-color: #d33c3c;
+            padding-left: 5px;
+            }
+        p{
+            text-align: center;
+            font-size: medium;
+            font-weight: bolder;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word Counter</h1>
+    <textarea name="script" id="txt" cols="30" rows="10"></textarea>
+    <p>
+        <span id="wd">0</span>words and
+         <span id="ch">0</span>characters
+    </p>
+</body>
+<script>
+    let txtar = document.getElementById('txt');
+    txtar.addEventListener('input',function(){
+        var text = this.value;
+        let char = text.length;
+        document.getElementById('ch').innerHTML = char;
+        text = text.trim();
+        let words = text.split(" ");
+        cleanLst = words.filter(function(elm){
+            return elm != "";
+        })
+        
+        document.getElementById('wd').innerHTML = cleanLst.length;
+    })
+        
+</script>
+</html>

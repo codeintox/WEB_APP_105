@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+#box{
+    height: 60px;
+    background-color: #0f1111;
+    
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+color: #f08804;
+font-size: 25px;
+}
+a{
+    margin-right: 200px;
+}
+footer{
+    color: blue;
+}
+.rrt{
+    height: 100px;
+    width: 100px;
+    /* background: #05d3f7; */
+    display: inline-block;
+}
+#content{
+    height: 580px;
+    border: 2px solid black;
+
+}
+

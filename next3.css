@@ -1,0 +1,30 @@
+#tran{
+    height: 200px;
+    width: 200px;
+    background-color: magenta;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: step(3);
+    transition-delay: 3s; */
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    /* transform: rotate(45deg);
+    transform: scale(2,1); */
+    animation: coloran 4s ease-in 0 infinite normal;
+}
+@keyframes coloran{
+    from{background-color: aqua;}
+    to {background-color: rgb(33, 250, 51);}
+}
+
+#tran:hover{
+    background-color: maroon;
+    color: aquamarine;
+    transform: skew(90deg);
+}
+#tran:active{
+    background-color:chartreuse;
+    color: blueviolet;
+    font-size: 40px;
+}

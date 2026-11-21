@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sqO{
+    width: 550px;
+    height: 550px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#sqI{
+    height: 500px;
+    width: 500px;
+    margin: 20px 20px 20px 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 187, 126);
+  
+}
+#crO{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inO{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
